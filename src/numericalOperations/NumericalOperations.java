@@ -14,4 +14,5 @@ public class NumericalOperations {
 		return list.stream().mapToInt(Integer::intValue).max().getAsInt();
 	}
 	
+	
 }
