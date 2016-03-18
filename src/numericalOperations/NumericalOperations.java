@@ -13,4 +13,5 @@ public class NumericalOperations {
 	public static int findMaxOfList(List<Integer> list){
 		return list.stream().mapToInt(Integer::intValue).max().getAsInt();
 	}
+	
 }
